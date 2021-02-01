@@ -46,7 +46,6 @@ public class HolidayBookingPage extends PageObject {
         while(attempts < 2) {
             try {
                 selectedDefaultBooking = $(SELECTED_BOOKING_DAY).getText();
-                System.out.println("SELECTED BOOKING DAY FROM UTIL "+selectedDefaultBooking);
                 break;
             } catch(StaleElementReferenceException e) {
                 e.getMessage();
@@ -61,7 +60,6 @@ public class HolidayBookingPage extends PageObject {
         while(attempts < 2) {
             try {
                 selectedMonthYear = $(SELECTED_BOOKING_MONTH_AND_YEAR).getText();
-                System.out.println("SELECTED MONTH YEAR FROM UTIL"+selectedMonthYear);
                 break;
             } catch(StaleElementReferenceException e) {
                 e.getMessage();
@@ -106,13 +104,10 @@ public class HolidayBookingPage extends PageObject {
     public void fetchDepartureAndLastDates() throws ParseException {
         String[] selectedDefaultBookingArray = fetchSystemSelectedDay().split("£");
         String selectedDate = selectedDefaultBookingArray[0].trim();
-        System.out.println("SELECTED DATE "+selectedDate+selectedDate.length());
 
         //Fetch first 3 characters and last 4 characters from the displayed String. Example, "Apr 2021" from "April 2021"
         String selectedMonthYearFormatted = fetchSystemSelectedMonthAndYear().substring(0,3).concat(" ").concat(fetchSystemSelectedMonthAndYear().substring(fetchSystemSelectedMonthAndYear().length()-4));
-        System.out.println("selectedMonthYearFormatted "+selectedMonthYearFormatted);
         String selectedDateMonthYear = selectedDate.concat(" ").concat(selectedMonthYearFormatted);
-        System.out.println("selectedDateMonthYear "+selectedDateMonthYear);
 
         waitFor(TRANSPORT_ACCORDIAN);
 
@@ -137,18 +132,14 @@ public class HolidayBookingPage extends PageObject {
 
         Date departureDateParsed=new SimpleDateFormat("dd-MMM-yyyy").parse(departureDateFormatted);
         Date lastDateParsed=new SimpleDateFormat("dd-MMM-yyyy").parse(lastDateFormatted);
-        System.out.println("dep and last dates parsed: "+departureDateParsed+" "+lastDateParsed);
         long differenceInTime = lastDateParsed.getTime() - departureDateParsed.getTime();
-        System.out.println("differenceInTime"+differenceInTime);
-        long differenceInYears = TimeUnit.DAYS.convert(differenceInTime, TimeUnit.MILLISECONDS);
-        System.out.println("differenceInYears"+differenceInYears);
-        Assert.assertTrue("Last date is not equal to (departure date + 9years)", differenceInYears == 9);
+        long differenceInDays = TimeUnit.DAYS.convert(differenceInTime, TimeUnit.MILLISECONDS);
+        Assert.assertTrue("Last date is not equal to (departure date + 9years)", differenceInDays == 9);
     }
 
     public void chooseNumberOfRoomsAndContinue() throws InterruptedException {
         Thread.sleep(3000);
         waitFor(ACCOMODATION_DROPDOWN);
-        System.out.println("ACCOMODATION_DROPDOWN"+$(ACCOMODATION_DROPDOWN).isEnabled());
         $(ACCOMODATION_DROPDOWN).selectByVisibleText("1");
         $(SELECT_ROOM_BUTTON).click();
     }

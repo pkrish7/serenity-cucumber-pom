@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+Test set: Book a holiday trip
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.356 s <<< FAILURE! - in Book a holiday trip
+Book a holiday trip.User should be able to book a holiday trip via mailtravel website  Time elapsed: 0.356 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "the user is on the mailtravel website home page" is undefined. You can implement it using the snippet(s) below:
+
+@Given("the user is on the mailtravel website home page")
+public void the_user_is_on_the_mailtravel_website_home_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("he or she searches for the holiday place {string}")
+public void he_or_she_searches_for_the_holiday_place(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("he or she should be able to see holiday details")
+public void he_or_she_should_be_able_to_see_holiday_details() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("should be able to book a holiday trip on the first available date successfully on giving all required information")
+public void should_be_able_to_book_a_holiday_trip_on_the_first_available_date_successfully_on_giving_all_required_information() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("should be able to sign up to newsletter")
+public void should_be_able_to_sign_up_to_newsletter() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
