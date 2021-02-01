@@ -1,4 +1,4 @@
-package mailtravel_pages;
+package pages.mailtravel_pages;
 
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageObject;
@@ -15,7 +15,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-import static mailtravel_pagelocators.HolidayBookingPageLocators.*;
+import static pages.mailtravel_pagelocators.HolidayBookingPageLocators.*;
 
 public class HolidayBookingPage extends PageObject {
 
@@ -189,6 +189,7 @@ public class HolidayBookingPage extends PageObject {
     }
 
     public boolean isPaymentPageDisplayed() {
+        waitFor(PAYMENT_PAGE);
         return $(PAYMENT_PAGE).getText().contains("enter your payment card details");
     }
 }

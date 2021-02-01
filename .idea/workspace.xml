@@ -1,10 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8f27b74e-f2e5-43fd-bda3-2f1d3eee407f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mailtravel_pages/HolidayBookingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mailtravel_pages/HolidayBookingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mailtravel_pagelocators/HolidayBookingPageLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/mailtravel_pagelocators/HolidayBookingPageLocators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mailtravel_pagelocators/HolidayDetailsPageLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/mailtravel_pagelocators/HolidayDetailsPageLocators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mailtravel_pagelocators/HomePageLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/mailtravel_pagelocators/HomePageLocators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mailtravel_pagelocators/SignUpToNewsLetterPageLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/mailtravel_pagelocators/SignUpToNewsLetterPageLocators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mailtravel_pages/HolidayBookingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/mailtravel_pages/HolidayBookingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mailtravel_pages/HolidayDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/mailtravel_pages/HolidayDetailsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mailtravel_pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/mailtravel_pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mailtravel_pages/SignUpToNewsLetterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/mailtravel_pages/SignUpToNewsLetterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mailtravel_pages/Utilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/mailtravel_pages/Utilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/BookAHoliday.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/BookAHoliday.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/text" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/Book a holiday trip.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/Book a holiday trip.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-Book a holiday trip.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-Book a holiday trip.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/serenity-cucumber_pom-mailtravel-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-cucumber_pom-mailtravel-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/0dca0e470415264c32c93d2a4e8a4bf7864e7f194971ae30290914efd3c5637c.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/0dca0e470415264c32c93d2a4e8a4bf7864e7f194971ae30290914efd3c5637c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/0dca0e470415264c32c93d2a4e8a4bf7864e7f194971ae30290914efd3c5637c.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/0dca0e470415264c32c93d2a4e8a4bf7864e7f194971ae30290914efd3c5637c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/86b31628c911e25bcef42c1073e3433f2e12ad88a142a97aa28805fcb51df227.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/86b31628c911e25bcef42c1073e3433f2e12ad88a142a97aa28805fcb51df227.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/9e5da818a134c53a4cf36a6f6a3a3cdd416b09b78b60410818e6f974c27188fa.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/9e5da818a134c53a4cf36a6f6a3a3cdd416b09b78b60410818e6f974c27188fa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-0dca0e470415264c32c93d2a4e8a4bf7864e7f194971ae30290914efd3c5637c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-0dca0e470415264c32c93d2a4e8a4bf7864e7f194971ae30290914efd3c5637c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b963bb69fecb4bb83df6b376c4d45108778d71d48e87bef33636b23824fd7ae2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/b963bb69fecb4bb83df6b376c4d45108778d71d48e87bef33636b23824fd7ae2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/build-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/build-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/capabilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/capabilities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/results.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/summary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_definitions/BookAHoliday.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_definitions/BookAHoliday.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,18 +53,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1nci6KmYWU9M8LmOYWBWENBO8q2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -42,6 +65,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -62,7 +86,7 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.All Features in: serenity-cucumber_pom-mailtravel">
+  <component name="RunManager" selected="Cucumber Java.All Features in: serenity-cucumber_pom-mailtravel">
     <configuration name="All Features in: serenity-cucumber_pom-mailtravel" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$" />
@@ -103,7 +127,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.All Features in: serenity-cucumber_pom-mailtravel" />
         <item itemvalue="JUnit.BookAHoliday_TestRunner" />
       </list>
     </recent_temporary>
@@ -120,6 +143,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -132,104 +156,5 @@
       <updated>1611695602202</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="183" y="111" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612115531400">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="183" y="111" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1612115531400" />
-    <state x="408" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612114556436">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="408" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1612114556436" />
-    <state x="532" y="165" key="#com.intellij.ide.util.MemberChooser" timestamp="1611776850886">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="532" y="165" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1611776850886" />
-    <state x="456" y="240" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1612115387921">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="456" y="240" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1612115387921" />
-    <state x="269" y="381" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1612120849557">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="269" y="381" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.900@0.0.1440.900" timestamp="1612120849557" />
-    <state x="493" y="315" width="453" height="278" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1612115621380">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="493" y="315" width="453" height="278" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1612115621380" />
-    <state x="493" y="336" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1612120851062">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="493" y="336" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1440.900@0.0.1440.900" timestamp="1612120851062" />
-    <state x="478" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1611777172854">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="478" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1611777172854" />
-    <state x="457" y="203" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611838863561">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="457" y="203" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1611838863561" />
-    <state width="1396" height="285" key="GridCell.Tab.0.bottom" timestamp="1612137366278">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1396" height="285" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1612137366278" />
-    <state width="1396" height="278" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1612119041229" />
-    <state width="1396" height="285" key="GridCell.Tab.0.center" timestamp="1612137366276">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1396" height="285" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1612137366276" />
-    <state width="1396" height="278" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1612119041228" />
-    <state width="1396" height="285" key="GridCell.Tab.0.left" timestamp="1612137366275">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1396" height="285" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1612137366275" />
-    <state width="1396" height="278" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1612119041227" />
-    <state width="1396" height="285" key="GridCell.Tab.0.right" timestamp="1612137366277">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1396" height="285" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1612137366277" />
-    <state width="1396" height="278" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1612119041228" />
-    <state width="1396" height="302" key="GridCell.Tab.1.bottom" timestamp="1612120758589">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1396" height="302" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1612120758589" />
-    <state width="1396" height="302" key="GridCell.Tab.1.center" timestamp="1612120758588">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1396" height="302" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1612120758588" />
-    <state width="1396" height="302" key="GridCell.Tab.1.left" timestamp="1612120758587">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1396" height="302" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1612120758587" />
-    <state width="1396" height="302" key="GridCell.Tab.1.right" timestamp="1612120758588">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1396" height="302" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1612120758588" />
-    <state x="207" y="30" key="SettingsEditor" timestamp="1612113204305">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="207" y="30" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1612113204305" />
-    <state x="397" y="281" key="com.intellij.ide.util.TipDialog" timestamp="1612129067030">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="397" y="281" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1612129067030" />
-    <state x="397" y="297" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1612117237741" />
-    <state x="386" y="212" width="667" height="476" key="find.popup" timestamp="1612124162934">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="386" y="212" width="667" height="476" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1612124162934" />
-    <state width="600" height="424" key="javadoc.popup" timestamp="1611756989292">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="600" height="424" key="javadoc.popup/0.0.1440.900@0.0.1440.900" timestamp="1611756989292" />
-    <state x="113" y="146" key="new project wizard" timestamp="1611757128088">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="113" y="146" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1611757128088" />
-    <state x="383" y="194" width="670" height="676" key="search.everywhere.popup" timestamp="1611840068989">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="383" y="194" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1611840068989" />
   </component>
 </project>

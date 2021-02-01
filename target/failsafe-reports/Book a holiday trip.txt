@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: Book a holiday trip
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.356 s <<< FAILURE! - in Book a holiday trip
-Book a holiday trip.User should be able to book a holiday trip via mailtravel website  Time elapsed: 0.356 s  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.304 s <<< FAILURE! - in Book a holiday trip
+Book a holiday trip.User should be able to book a holiday trip via mailtravel website  Time elapsed: 0.304 s  <<< ERROR!
 io.cucumber.junit.UndefinedStepException: 
 The step "the user is on the mailtravel website home page" is undefined. You can implement it using the snippet(s) below:
 

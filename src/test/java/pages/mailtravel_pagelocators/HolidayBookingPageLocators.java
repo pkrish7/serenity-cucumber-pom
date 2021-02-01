@@ -1,4 +1,4 @@
-package mailtravel_pagelocators;
+package pages.mailtravel_pagelocators;
 
 public class HolidayBookingPageLocators {
 

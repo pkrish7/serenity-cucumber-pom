@@ -1,0 +1,8 @@
+pages/mailtravel_pages/HolidayBookingPage.class
+pages/mailtravel_pages/HomePage.class
+pages/mailtravel_pages/HolidayDetailsPage.class
+pages/mailtravel_pagelocators/HolidayDetailsPageLocators.class
+pages/mailtravel_pages/SignUpToNewsLetterPage.class
+pages/mailtravel_pagelocators/HomePageLocators.class
+pages/mailtravel_pagelocators/SignUpToNewsLetterPageLocators.class
+pages/mailtravel_pagelocators/HolidayBookingPageLocators.class

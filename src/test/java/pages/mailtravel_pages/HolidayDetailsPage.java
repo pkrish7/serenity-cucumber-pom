@@ -1,10 +1,10 @@
-package mailtravel_pages;
+package pages.mailtravel_pages;
 
 import net.serenitybdd.core.pages.PageObject;
 
 import java.util.ArrayList;
 
-import static mailtravel_pagelocators.HolidayDetailsPageLocators.*;
+import static pages.mailtravel_pagelocators.HolidayDetailsPageLocators.*;
 
 public class HolidayDetailsPage extends PageObject {
 //    private static final String MORE_INFO_BUTTON = "#iterator_1_product_custom_more-info-button";

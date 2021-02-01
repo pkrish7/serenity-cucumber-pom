@@ -1,11 +1,11 @@
-package mailtravel_pages;
+package pages.mailtravel_pages;
 
 import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.DefaultUrl;
 import org.openqa.selenium.Keys;
 
-import static mailtravel_pagelocators.HomePageLocators.ACCEPT_COOKIES_BUTTON;
-import static mailtravel_pagelocators.HomePageLocators.HOLIDAY_SEARCHBOX;
+import static pages.mailtravel_pagelocators.HomePageLocators.ACCEPT_COOKIES_BUTTON;
+import static pages.mailtravel_pagelocators.HomePageLocators.HOLIDAY_SEARCHBOX;
 
 @DefaultUrl("https://www.mailtravel.co.uk/")
 public class HomePage extends PageObject {

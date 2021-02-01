@@ -1,8 +1,8 @@
-package mailtravel_pages;
+package pages.mailtravel_pages;
 
 import net.serenitybdd.core.pages.PageObject;
 
-import static mailtravel_pagelocators.SignUpToNewsLetterPageLocators.*;
+import static pages.mailtravel_pagelocators.SignUpToNewsLetterPageLocators.*;
 
 public class SignUpToNewsLetterPage extends PageObject {
 

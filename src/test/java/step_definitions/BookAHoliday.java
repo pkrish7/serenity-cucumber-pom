@@ -1,9 +1,9 @@
 package step_definitions;
 
-import mailtravel_pages.HolidayBookingPage;
-import mailtravel_pages.HolidayDetailsPage;
-import mailtravel_pages.HomePage;
-import mailtravel_pages.SignUpToNewsLetterPage;
+import pages.mailtravel_pages.HolidayBookingPage;
+import pages.mailtravel_pages.HolidayDetailsPage;
+import pages.mailtravel_pages.HomePage;
+import pages.mailtravel_pages.SignUpToNewsLetterPage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
